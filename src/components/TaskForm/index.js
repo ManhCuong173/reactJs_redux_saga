@@ -6,9 +6,9 @@ import {
   DialogContent,
   DialogTitle,
   TextField,
-} from '@material-ui/core'
-import { withStyles } from '@material-ui/styles'
-import PropTypes from 'prop-types'
+} from '@material-ui/core';
+import { withStyles } from '@material-ui/styles';
+import PropTypes from 'prop-types';
 import React, { Component } from 'react'
 import styles from './styles'
 

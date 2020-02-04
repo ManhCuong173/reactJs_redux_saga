@@ -3,6 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import React, { Component } from 'react';
 import TaskItem from '../TaskItem';
 import styles from './styles';
+import PropTypes from 'prop-types'
 
 class TaskList extends Component {
   render() {
@@ -18,6 +19,12 @@ class TaskList extends Component {
       </Grid>
     );
   }
+}
+
+TaskList.propTypes = {
+  classes: PropTypes.object,
+  tasks: PropTypes.array,
+  status: PropTypes.object,
 }
 
 export default withStyles(styles)(TaskList);
