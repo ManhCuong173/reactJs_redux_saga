@@ -5,6 +5,8 @@ const theme = createMuiTheme({
     primary: '#3F51B5',
     secondary: '#757575',
     error: '#FF5252',
+    white: '#FFFF',
+    black: '#1a1a1a',
   },
   typography: {
     fontFamily: 'Roboto',
@@ -14,6 +16,7 @@ const theme = createMuiTheme({
     backgroundColor: '#3F51B5',
     textColor: '#FFFF',
   },
+  spacing: 8,
 });
 
 export default theme;

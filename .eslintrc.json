@@ -13,11 +13,19 @@
         "no-spaced-func":0,
         "func-call-spacing":0,
         "space-before-function-paren":0,
+        "no-unused-vars":0,
+        "import/extensions":0,
+        "import/no-useless-path-segments":0,
+        "import/prefer-default-export":0,
+        "import/no-named-as-default":0,
+        "no-console":0,
         "react/jsx-filename-extension":0,
         "react/require-default-props":0,
         "react/forbid-prop-types":0,
         "react/prefer-stateless-function":0,
-        "prettier/prettier": ["error"]
+        "react/first-prop-new-line":0,
+        "react/jsx-fragments":0,
+        "prettier/prettier": ["error",{"endOfLine":"auto"}]
     },
     "parser": "babel-eslint",
     "parserOptions": {
@@ -37,5 +45,5 @@
         "es6": true,
         "node":true
     }
-   
+
 }

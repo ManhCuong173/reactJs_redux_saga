@@ -1,7 +1,11 @@
 {
     "presets": [
-        "babel-preset-env",
+        ["babel-preset-env", {
+          "targets": {
+            "browsers": ["last 2 Chrome versions"]
+          }
+        }],
         "react",
-        "stage-2"
+        "stage-2",
     ]
 }
